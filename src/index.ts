@@ -1,1 +1,1 @@
-export { default as HoverImage } from "./HoverImage";
+export * from './components'
