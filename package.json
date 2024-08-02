@@ -1,7 +1,7 @@
 {
-  "name": "rollup-react-starter-lib-ts",
-  "version": "1.0.4",
-  "description": "Rolllup template for creating your react/typescript library",
+  "name": "van-ui",
+  "version": "0.0.1",
+  "description": "React UI Library",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
   "types": "./lib/esm/index.d.ts",
@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "build": "rollup -c",
-    "build:watch": "rollup -c --watch"
+    "dev": "rollup -c -w"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^23.0.2",
@@ -26,19 +26,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/thiswallz/rollup-react-starter-lib-ts"
+    "url": "https://github.com/Hi-Van/van-ui.git"
   },
-  "author": "Mau BJW",
+  "author": "Van Sirisouk",
   "license": "MIT",
-  "keywords": [
-    "react-template",
-    "react-library",
-    "typescript",
-    "react",
-    "template"
-  ],
   "peerDependencies": {
-    "react": "^16 || ^17 || ^18",
-    "react-dom": "^16 || ^17 || ^18"
+    "react": ">=18",
+    "react-dom": ">=18"
   }
 }
